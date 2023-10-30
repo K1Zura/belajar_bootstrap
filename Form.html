@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Bootsrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Form Login</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="slide.html">Azura Website</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link " href="slide.html">Beranda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About me.html">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="tabel.html">Tabel Siswa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="Form.html">Formulir</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <div class="container">
+    <br>
+    <form class="row g-3" class="was-validated" method="get">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">NIS</label>
+    <input type="text" class="form-control" placeholder="Nomor Induk Sekolah">
+    <div class="valid-feedback">Username Valid</div>
+    <div class="invalid-feedback">maaf, Username tidak boleh kosong !</div>
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Nama</label>
+    <input type="text" class="form-control" placeholder="Nama Lengkap">
+  </div>
+  <hr>
+  <font face="Lucida Bright">Jenis Kelamin</font>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Laki-Laki
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Perempuan
+  </label>
+  <hr>
+</div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Alamat</label>
+    <input type="text" class="form-control" placeholder="Tempat Tinggal">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Asal Sekolah</label>
+    <input type="text" class="form-control" placeholder="Sekolah SMP">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Agama</label>
+    <select id="inputState" class="form-select">
+      <option selected>Pilih...</option>
+      <option>Islam</option>
+      <option>Kristen</option>
+      <option>Katolik</option>
+      <option>Hindu</option>
+      <option>Budha</option>
+      <option>KongHu Chu</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Hobi</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+    <div class="col-12">
+        <h5>About Me</h5>
+        <textarea name=”deskripsi” class="ckeditor"></textarea>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Kirim</button>
+  </div>
+</form>
+    </div>
+    <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="slide.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="about me.html" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2021 Company, Inc</p>
+   </footer>
+  </div>
+</body>
+</html>
